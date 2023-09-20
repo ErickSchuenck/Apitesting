@@ -22,6 +22,6 @@ const Button = () => {
         .catch(error => {console.log(error)})
     }
 
-    return <button onClick={callApi}>Clickme</button>;
+    return <button onClick={callApi}>Clickme to test api</button>;
 }
 export default Button;
